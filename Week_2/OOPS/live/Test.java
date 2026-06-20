@@ -7,15 +7,15 @@ import music.wind.Saxophone;
 public class Test {
     public static void main(String[] args) {
 
-        // a. Veena object
+        // a. Veena
         Veena v = new Veena();
         v.play();
 
-        // b. Saxophone object
+        // b. Saxophone
         Saxophone s = new Saxophone();
         s.play();
 
-        // c. Using Playable reference
+        // c. Using interface reference
         Playable p;
 
         p = new Veena();
@@ -25,4 +25,3 @@ public class Test {
         p.play();
     }
 }
-
